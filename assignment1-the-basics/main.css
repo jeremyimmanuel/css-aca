@@ -1,0 +1,17 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: cadetblue;
+}
+
+code {
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+}
+
+.second-li {
+    color: green;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
