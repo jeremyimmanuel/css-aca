@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background: url("https://www.nathab.com/uploaded-files/carousels/HERO/Alaska-North/36-The-Great-Alaskan-Grizzly-Encounter.jpg");
+}
+
+/* header {
+    background-color: violet;
+    color: white;
+    font-family: 'Encode Sans', sans-serif;
+    font-size: xx-large;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+#product-overview {
+    padding: 20px;
+    background-color: rgb(223, 148, 99);
+    border: 5px black solid;
+    /*
+     * The key value pair above is short hand for
+     * border-style: solid;
+     * border-color: black;
+     * border-width: 5px;
+    */
+    width: 700px;
+}
+
+.main-header {
+   width: 100%;
+   background-color: violet;
+   padding: 0 30px;
+}
+
+.main-header > div {
+    display: inline-block;
+}
+
+.main-header__brand {
+    color: #0e4f1f;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+    vertical-align: middle;
+}
+
+.main-nav {
+    display: inline-block;
+    text-align: right;
+    width: 80%;
+    margin: 0;
+    vertical-align: middle;
+}
+
+.main-nav__items {
+    margin: 10;
+}
+
+.main-nav__item {
+    margin: 0 16px;
+    list-style: none;
+    display: inline-block;
+}
+
+.main-nav__item a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #0e4f1f;
+}
+
+.main-nav__item a:hover,
+.main-nav__item a:active {
+    color:white;
+    border-bottom: 3px solid white;
+    padding: 3px 0;
+}
+
+p::first-letter {
+    font-size: 130%;
+    color: red;
+}
+
+p::after {
+    content: 'hello there';
+}
+
+.main-nav__item--cta a {
+    color: white;
+    background-color: aquamarine;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+.main-nav__item--cta a:hover,
+.main-nav__item--cta a:active {
+    color: aquamarine;
+    background-color: white;
+    border: none;
+    padding: 8px 16px;
+}

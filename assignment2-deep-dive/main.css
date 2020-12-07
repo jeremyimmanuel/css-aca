@@ -1,0 +1,30 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nice-box {
+    padding: 5px 10px 15px 20px;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: aquamarine;
+    color: magenta;
+    border: 1px solid grey;
+    display: inline-block;
+}
+
+#box-1 {
+    /* height: 100%; */
+    height: 300px;
+    width: 50%;
+    /* visibility: hidden; */
+}
+
+#box-2:hover {
+    background-color: magenta;
+    color: aquamarine;
+}
+
+html,
+body {
+    height: 100%;
+}
